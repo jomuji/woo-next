@@ -17,6 +17,17 @@ module.exports = {
         '308px': '19.25rem',
         '600px': '37.5rem',
       },
+      fontFamily: {
+        'lato': ['Lato', 'sans-serif'],
+        'montserrat': ['Montserrat', 'sans-serif'],
+        'poppins': ['Poppins', 'sans-serif'],
+      },
+      colors: {
+        'legset': '#AB47BC',
+      },
+      backgroundColor: {
+        'bg-legset': '#AB47BC',
+      },
     },
   },
   variants: {},

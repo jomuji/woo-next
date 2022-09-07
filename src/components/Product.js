@@ -27,10 +27,10 @@ const Product = ( props ) => {
 					</a>
 				</Link>
 				<div className="product-info">
-					<h3 className="product-title mt-3 font-medium text-gray-800">
+					<h3 className="product-title mt-3 font-bold text-2xl font-poppins text-gray-800">
 						{ product.name ? product.name : '' }
 					</h3>
-					<div className="product-description text-sm text-gray-700" dangerouslySetInnerHTML={{ __html: (product?.description)}}/>
+					<div className="product-description text-lg text-gray-700" dangerouslySetInnerHTML={{ __html: (product?.description)}}/>
 					<Price salesPrice={product?.price} regularPrice={product?.regularPrice}/>
 					<AddToCartButton product={ product }/>
 				</div>
