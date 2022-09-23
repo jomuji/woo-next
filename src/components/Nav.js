@@ -29,27 +29,22 @@ const Nav = () => {
 				{/*MMenu in mobile*/}
 				<div className={`${ isMenuVisible ? 'max-h-full h-full' : 'h-0' } w-full overflow-hidden lg:h-full flex-grow lg:flex lg:items-center lg:w-auto`}>
 					<div className="text-sm font-medium uppercase lg:flex-grow">
-					<Link href="/categories">
-						<a className="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-black mr-10">
-							Categories
-						</a>
-					</Link>
 					<Link href="/">
 						<a className="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-black mr-10">
-							Women
+							Home
 						</a>
 					</Link>
-					<Link href="/">
+					<Link href="/category/leggings/">
 						<a className="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-black mr-10">
-							Kids
+							Leggings
 						</a>
 					</Link>
-					<Link href="/">
+					<Link href="/category/tops/">
 						<a className="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-black mr-10">
-							Home & Living
+							Tops
 						</a>
 					</Link>
-					<Link href="/">
+					<Link href="/category/offers/">
 						<a className="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-black mr-10">
 							Offers
 						</a>
